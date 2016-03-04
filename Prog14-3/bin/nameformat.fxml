@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Prog14_3_controller">
+   <children>
+      <Label layoutX="14.0" layoutY="26.0" text="First name:" />
+      <Label layoutX="14.0" layoutY="53.0" text="Last name:" />
+      <Label layoutX="14.0" layoutY="78.0" text="Middle name:" />
+      <Label layoutX="14.0" layoutY="102.0" text="Title:" />
+      <TextField fx:id="firstTextfield" layoutX="89.0" layoutY="22.0" />
+      <TextField fx:id="lastTextfield" layoutX="89.0" layoutY="49.0" />
+      <TextField fx:id="middleTextfield" layoutX="89.0" layoutY="74.0" />
+      <TextField fx:id="titleTextfield" layoutX="89.0" layoutY="98.0" />
+      <Button fx:id="button1" layoutX="19.0" layoutY="133.0" mnemonicParsing="false" onAction="#Button1Listener" text="Format 1" />
+      <Button fx:id="button2" layoutX="100.0" layoutY="133.0" mnemonicParsing="false" onAction="#Button2Listener" text="Format 2" />
+      <Button fx:id="button3" layoutX="174.0" layoutY="133.0" mnemonicParsing="false" onAction="#Button3Listener" text="Format 3" />
+      <Button fx:id="button4" layoutX="19.0" layoutY="165.0" mnemonicParsing="false" onAction="#Button4Listener" text="Format 4" />
+      <Button fx:id="button5" layoutX="100.0" layoutY="165.0" mnemonicParsing="false" onAction="#Button5Listener" text="Format 5" />
+      <Button fx:id="button6" layoutX="174.0" layoutY="165.0" mnemonicParsing="false" onAction="#Button6Listener" text="Format 6" />
+      <Label fx:id="labelResult" layoutX="19.0" layoutY="200.0" />
+   </children>
+</AnchorPane>
